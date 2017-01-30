@@ -34,14 +34,16 @@ p {
 
 .navbar-brand {
   color: #778C7F !important;
+  font-family: 'Nunito', sans-serif;
+  font-weight: bold;
 }
 
 /*Cards*/
-.card-container {
+.flex-container {
   display: flex;
   flex-flow: row;
   flex-wrap: wrap;
-  justify-content: space-around;
+  justify-content: center;
 }
 
 .card {
@@ -51,6 +53,7 @@ p {
   margin-right: 5%;
   padding: 10px;
   background-color: #FFECD2;
+  border-radius: 5px;
 }
 
 .card-image {
@@ -72,10 +75,21 @@ p {
   color: #71AA88;
 }
 
+.inactive-button {
+  opacity: .5;
+}
+
 /*Post Options*/
 .post-options {
   background-color: #AECFBC;
   padding: 20px;
+  border-radius: 5px;
+  margin: 5px;
+  min-height: 120px;
+}
+
+.form-field {
+  margin: 15px 0 15px 0;
 }
 
 /*Colors*/
