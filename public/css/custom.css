@@ -1,0 +1,46 @@
+body {
+  /*background-color: #FDF8D2;*/
+}
+
+/*Text*/
+h3,
+h4 {
+  margin: 5px;
+}
+/*Nav*/
+.navbar {
+  background-color: #D0E7CA;
+}
+
+.navbar-brand {
+  color: #778C7F !important;
+}
+
+/*Cards*/
+.card-container {
+  display: flex;
+  flex-flow: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.card {
+  width: 100%;
+  margin: 10px;
+  margin-left: 5%;
+  margin-right: 5%;
+  padding: 10px;
+  background-color: #FFECD2;
+}
+
+.card-image {
+  max-height: 200px;
+  width: auto;
+  border-radius: 50%;
+}
+
+/*Colors*/
+.dark-pink {
+  color: #D1A37D;
+}
+\

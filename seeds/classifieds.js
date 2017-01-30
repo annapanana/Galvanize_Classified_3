@@ -7,19 +7,28 @@ exports.seed = function(knex, Promise) {
         // Inserts seed entries
         knex('classifieds').insert({
           id:1,
-          title:'NES Classic',
-          description:'I got lucky and found it, and decided to charge 10x what it was worth.',
+          title:'Later Tater',
+          description:'Pour-over chartreuse cray, yr live-edge locavore kale chips woke crucifix waistcoat. Crucifix fashion axe snackwave cliche church-key.',
           price:600,
-          item_image:'http://www.nintendo.com/images/page/nes-classic/nes-classic-edition-box.png',
+          item_image:'https://s3-us-west-2.amazonaws.com/popuparcade.com/spuds/spud-1.png',
           created_at: new Date('2016-06-26T14:26:16.000Z'),
           updated_at: new Date('2016-06-26T14:26:16.000Z')
         }),
         knex('classifieds').insert({
           id:2,
-          title:'Pikachu 9" Plush Stuffed Toy',
-          description:'Polyester fiber construction Officially licensed.',
+          title:'Spudded',
+          description:'Pour-over chartreuse cray, yr live-edge locavore kale chips woke crucifix waistcoat. Crucifix fashion axe snackwave cliche church-key.',
+          price:1,
+          item_image:'https://s3-us-west-2.amazonaws.com/popuparcade.com/spuds/spud-2.png',
+          created_at: new Date('2016-06-26T14:26:16.000Z'),
+          updated_at: new Date('2016-06-26T14:26:16.000Z')
+        }),
+        knex('classifieds').insert({
+          id:3,
+          title:'Mean Mashed',
+          description:'Pour-over chartreuse cray, yr live-edge locavore kale chips woke crucifix waistcoat. Crucifix fashion axe snackwave cliche church-key.',
           price:10,
-          item_image:'https://images-na.ssl-images-amazon.com/images/I/41VwGotRZsL._SY300_.jpg',
+          item_image:'https://s3-us-west-2.amazonaws.com/popuparcade.com/spuds/spud-3.png',
           created_at: new Date('2016-06-26T14:26:16.000Z'),
           updated_at: new Date('2016-06-26T14:26:16.000Z')
         })
