@@ -1,28 +1,33 @@
-<h3>Edit Post</h3>
-<div class="row">
-  <form class="" action="index.html" method="post">
-    <div>
-      <label for="title">Title</label>
-      <br>
-      <input type="text" name="title" value="" ng-model="$ctrl.selectedPost.title">
-    </div>
-    <div>
-      <label for="description">Description</label>
-      <br>
-      <input type="text" name="description" value="" ng-model="$ctrl.selectedPost.description">
-    </div>
-    <div>
-      <label for="price">Price</label>
-      <br>
-      <input type="text" name="price" value="" ng-model="$ctrl.selectedPost.price">
-    </div>
-    <div>
-      <label for="item_image">Item Image</label>
-      <br>
-      <input type="text" name="item_image" value="" ng-model="$ctrl.selectedPost.item_image">
-    </div>
-    <div class="">
-      <button type="button" name="button" ng-click="$ctrl.editPost()">Save Edit</button>
-    </div>
-  </form>
+<div class="col-md-4"></div>
+<div class="col-md-4 text-center">
+  <h3 class="dark-green">Edit Post</h3>
+  <div class="row post-options">
+    <form class="" action="index.html" method="post">
+      <div class="form-field">
+        <label for="title"><h4 class="white">Title</h4></label>
+        <br>
+        <input type="text" name="title" value="" ng-model="$ctrl.selectedPost.title">
+      </div>
+      <div class="form-field">
+        <label for="description"><h4 class="white">Description</h4></label>
+        <br>
+        <textarea type="text" name="description" value="" ng-model="$ctrl.selectedPost.description"></textarea>
+      </div>
+      <div class="form-field">
+        <label for="price"><h4 class="white">Price</h4></label>
+        <br>
+        <input type="text" name="price" value="" ng-model="$ctrl.selectedPost.price">
+      </div>
+      <div class="form-field">
+        <label for="item_image"><h4 class="white">Item Image</h4></label>
+        <br>
+        <input type="text" name="item_image" value="" ng-model="$ctrl.selectedPost.item_image">
+      </div>
+      <div class="form-field">
+        <button class="btn" type="button" name="button" ng-click="$ctrl.editPost()">Save Edit</button>
+      </div>
+    </form>
+  </div>
+  <h5 class="dark-green">When you edit your post, the changes will be updated immediately on the post page!</h5>
 </div>
+<div class="col-md-4"></div>
