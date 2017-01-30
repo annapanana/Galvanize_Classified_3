@@ -3,10 +3,30 @@ body {
 }
 
 /*Text*/
+
+h1,
+h2,
+h3 {
+  font-weight: bold;
+}
+
 h3,
 h4 {
-  margin: 5px;
+  margin: 5px 0 5px 0;
 }
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: 'Nunito', sans-serif;
+}
+
+p {
+  font-family: 'Open Sans', sans-serif;
+}
+
 /*Nav*/
 .navbar {
   background-color: #D0E7CA;
@@ -39,8 +59,26 @@ h4 {
   border-radius: 50%;
 }
 
+/*Buttons*/
+
+.btn {
+  background-color: #FFF;
+  font-family: 'Nunito', sans-serif;
+  color: #71AA88;
+}
+
+.btn:hover {
+  background-color: #D0E7CA;
+  color: #71AA88;
+}
+
+/*Post Options*/
+.post-options {
+  background-color: #AECFBC;
+  padding: 20px;
+}
+
 /*Colors*/
 .dark-pink {
   color: #D1A37D;
 }
-\
