@@ -1,17 +1,22 @@
 
+<div class="row text-center bottom-margin">
+  <h2 class="dark-green">Greetings Potato-Heads!</h2>
+  <h4 class="dark-green">Post all of your potato needs here and some spud will get back to you shortly.</h4>
+</div>
+
 <!-- Post Options -->
 <div class="row text-center">
   <div class="flex-container">
     <div class="col-md-3 post-options">
-      <h5>Add a New Post</h5>
+      <h4 class="white bottom-margin">Add a New Post</h4>
       <button class="btn" type="button" name="button" ng-click="$ctrl.newPost()">New Post</button>
     </div>
     <div class="col-md-3 post-options ">
-      <h5>Filter Posts</h5>
+      <h4 class="white bottom-margin">Filter Posts</h4>
       <input name="search" ng-model="searchText" type="search">
     </div>
     <div class="col-md-3 post-options ">
-      <h5>Sort Posts</h5>
+      <h4 class="white bottom-margin">Sort Posts</h4>
       <button class="btn" type="button" name="button" ng-click="$ctrl.updateSort('-date')" ng-class="{'inactive-button': $ctrl.sortCriteria != '-date'}">Sort By Date</button>
       <button class="btn" type="button" name="button" ng-click="$ctrl.updateSort('price')" ng-class="{'inactive-button': $ctrl.sortCriteria != 'price'}">Sort By Price</button>
     </div>

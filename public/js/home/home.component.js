@@ -17,7 +17,7 @@
       };
 
       vm.deletePost = function(id) {
-        $http.delete(`/api/classifieds/${id}`).then((result) => {
+        $http.delete(`/classifieds/${id}`).then((result) => {
           console.log(result);
           refreshPosts();
         });
@@ -36,7 +36,7 @@
       }
 
       function refreshPosts() {
-        $http.get('/api/classifieds').then((result) => {
+        $http.get('/classifieds').then((result) => {
           console.log(result.data);
           vm.posts = result.data;
         });

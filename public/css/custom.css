@@ -3,7 +3,6 @@ body {
 }
 
 /*Text*/
-
 h1,
 h2,
 h3 {
@@ -29,13 +28,14 @@ p {
 
 /*Nav*/
 .navbar {
-  background-color: #D0E7CA;
+  background-color: #AECFBC;
 }
 
 .navbar-brand {
-  color: #778C7F !important;
+  color: #FFF !important;
   font-family: 'Nunito', sans-serif;
   font-weight: bold;
+  letter-spacing: 5px;
 }
 
 /*Cards*/
@@ -63,7 +63,6 @@ p {
 }
 
 /*Buttons*/
-
 .btn {
   background-color: #FFF;
   font-family: 'Nunito', sans-serif;
@@ -79,15 +78,7 @@ p {
   opacity: .5;
 }
 
-/*Post Options*/
-.post-options {
-  background-color: #AECFBC;
-  padding: 20px;
-  border-radius: 5px;
-  margin: 5px;
-  min-height: 120px;
-}
-
+/*Form Settings*/
 .form-field {
   margin: 15px 0 15px 0;
 }
@@ -108,6 +99,19 @@ input {
   color: #71AA88;
   border-style: none;
   border-width: 0;
+}
+
+/*Body Objects*/
+.post-options {
+  background-color: #AECFBC;
+  padding: 20px;
+  border-radius: 5px;
+  margin: 5px;
+  min-height: 120px;
+}
+
+.bottom-margin {
+  margin-bottom: 20px;
 }
 
 /*Colors*/
